@@ -30,8 +30,6 @@ int guess_eval(const int guess, const int my_number){
 }
 
 int leap_year(const int year){
-    int year1 = 4443;
-    int year2 = 1;
     if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
         return 1;
     }
